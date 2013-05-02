@@ -18,6 +18,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # overlays
 DEVICE_PACKAGE_OVERLAYS += device/htc/msm8960-common/overlay
+DEVICE_PACKAGE_OVERLAYS += vendor/baked/overlay/htc-msm8960-common
 
 # Boot ramdisk setup
 PRODUCT_PACKAGES += \
